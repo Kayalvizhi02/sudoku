@@ -1,29 +1,29 @@
 # sudoku
 
 # Aim:
-To develop a code to solve a sudoku puzzle using contraint propagation
+To develop a code to solve a sudoku puzzle using contraint propagation.
 
 # Theory:
 Sudoku consists of a 9x9 grid, and the objective is to fill the grid with digits in such a way that each row, each column, and each of the 9 principal 3x3 subsquares contains all of the digits from 1 to 9.
 
 # Design Steps:
 
-## Step 1:
+### Step 1:
 Take an unsolved sudoku puzzle and make it has a single string format.
 
-## Step 2:
+### Step 2:
 Convert given string format into dictionary format.
 
-## Step 3:
+### Step 3:
 Eliminate possible values for a box by looking at its peers.
 
-## Step 4:
+### Step 4:
 Check whether any box which allows only a certain digit in the unit after elimination.
 
-## Step 5:
+### Step 5:
 Repeat 3 and 4 until we get the solved puzzle.
 
-## Step 6:
+### Step 6:
 Calculate the time taken to solve the sudoku.
 
 
